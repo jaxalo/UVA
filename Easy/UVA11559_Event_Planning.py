@@ -1,17 +1,12 @@
-import sys
-
 INF = 99999999
 
 for line in sys.stdin:
     n,b,h,w = map(int,line.split())
-    #print("line ",line)
     minTotalCost = INF
     for i_h in range(h):
         line = sys.stdin.readline().rstrip('\n')
-        #print("line 2 : ",line)
         person = int(line)
         line = sys.stdin.readline().rstrip('\n')
-        #print("line 3 : ",line)
         ws = list(map(int,line.split()))
         
         #Enough place in hotel
