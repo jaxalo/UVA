@@ -25,7 +25,7 @@ for line in sys.stdin:
         curu -= degrade
         if(curu < 0):
             curu = 0
-        #print('bim')
+     
 
     #Answer
     if(curh > h):
