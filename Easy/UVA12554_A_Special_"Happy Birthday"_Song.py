@@ -1,5 +1,3 @@
-
-
 lenMusics = 16
 musics = [''] * lenMusics
 

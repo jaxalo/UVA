@@ -1,5 +1,3 @@
-
-
 n = int(input())
 print('Lumberjacks:')
 for i in range(n):

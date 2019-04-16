@@ -1,5 +1,3 @@
-import sys
-
 n = int(input())
 for t in range(n):
     blanck = input()

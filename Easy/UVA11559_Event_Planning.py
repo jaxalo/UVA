@@ -1,3 +1,5 @@
+import sys
+
 INF = 99999999
 
 for line in sys.stdin:
