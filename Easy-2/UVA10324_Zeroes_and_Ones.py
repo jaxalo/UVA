@@ -27,11 +27,6 @@ for line in sys.stdin:
             depIndex = endIndex
             depChar = inp[i]
     
-    #print(inp)
-    #print(maxBound)
-            
-            
-            
     print('Case '+str(case)+':')
     for _ in range(n):
         i,j = map(int,input().split())
